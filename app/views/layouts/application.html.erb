@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tpp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+<title>Tpp</title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
 </head>
 <body>
 
-<div class="container">
-<%= yield %>
+<div id="wrap">
+  <div id="main" class="container clear-top">
+    <%= yield %>
+  </div>
 </div>
 
+<footer class="footer">
+  <div class="container">
+  Made in SF with the EFF
+</div>
+</footer>
 </body>
 </html>

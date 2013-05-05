@@ -1,10 +1,16 @@
 html, body {
   height: 100%;
-  background-image:url('../assets/px_by_Gre3g_@2X.png');
+  background:#262626;
+  background-image:url('../assets/test3.png');
 }
 
 #wrap {
   min-height: 100%;
+  position:absolute;
+  top:0;
+  left:50%;
+  width:700px;
+  margin-left:-350px;
 }
 
 #main {
@@ -28,6 +34,10 @@ html, body {
     font-weight:400;
     color:white;
     font-size:2.2em;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5)
+  }
+  a.link{
+    color:#aaa;
   }
 
 
@@ -35,11 +45,12 @@ html, body {
 .btn{
   color:white;
   background: #e8251d;
-  font-size:1.5em;
-  padding:0.5em;
+  font-size:1.2em;
+  padding:0.35em 0.5em;
   text-transform:uppercase;
   text-decoration:none;
-  font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family:"roboto slab";
+  font-weight:300;
   border-radius:2px;
 }
 .btn:hover{

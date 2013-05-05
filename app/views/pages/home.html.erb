@@ -1,12 +1,10 @@
 <div style="text-align:center">
   <h3> Why the <span class="rb"> heck </span> should I care about the <a href="https://www.eff.org/issues/tpp" class="rb"> TPP</a>? </h3>
-  <br>
-  <br>
   <h2><%= @fact.name %></h2>
-  <br>
   <span class="link"> <%= link_to @fact.link, @fact.link %> </span>
   <br>
+  <br>
 
-  <br><br><br><br>
+  <br>
   <%= link_to @question.name, root_path(:f => @fact, :q => @question), :class => "btn"%>
 </div>

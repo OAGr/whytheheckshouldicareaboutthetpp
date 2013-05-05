@@ -1,0 +1,27 @@
+<h1>Listing facts</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Link</th>
+    <th>Language</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @facts.each do |fact| %>
+  <tr>
+    <td><%= fact.name %></td>
+    <td><%= fact.link %></td>
+    <td><%= fact.language %></td>
+    <td><%= link_to 'Show', fact %></td>
+    <td><%= link_to 'Edit', edit_fact_path(fact) %></td>
+    <td><%= link_to 'Destroy', fact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Fact', new_fact_path %>

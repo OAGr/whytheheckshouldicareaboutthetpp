@@ -2,11 +2,12 @@ html, body {
   height: 100%;
   background:#262626;
   background-image:url('../assets/test3.png');
+  margin:0;
 }
 
 #wrap {
   min-height: 100%;
-  position:absolute;
+  position:relative;
   top:0;
   left:50%;
   width:700px;

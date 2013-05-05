@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  background-image:url('../assets/px_by_Gre3g_@2X.png');
 }
 
 #wrap {
@@ -9,13 +10,48 @@ html, body {
 #main {
   overflow:auto;
   padding-bottom:150px; /* this needs to be bigger than footer height*/
-}
 
+  h3{
+    font-family:"roboto slab";
+    color:#fff;
+    font-weight:400;
+    font-size:1.4em;
+  }
+  .rb{
+    color:#e8251d;
+    font-weight:700;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size:1.5em;
+  }
+  h2{
+    font-family: "roboto slab";
+    font-weight:400;
+    color:white;
+    font-size:2.2em;
+  }
+
+
+}
+.btn{
+  color:white;
+  background: #e8251d;
+  font-size:1.5em;
+  padding:0.5em;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+  border-radius:2px;
+}
+.btn:hover{
+  background: #a51313;
+}
 .footer {
   position: relative;
   margin-top: -80px; /* negative value of footer height */
   height: 80px;
   clear:both;
   padding-top:20px;
-  background:#aaf;
+  background:#262626;
+  border-top: 3px solid #e8251d;
+  color:#ddd;
 } 

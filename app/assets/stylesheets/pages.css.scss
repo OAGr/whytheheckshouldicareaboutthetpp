@@ -18,27 +18,41 @@ html, body {
   overflow:auto;
   padding-bottom:150px; /* this needs to be bigger than footer height*/
 
-  h3{
+  .header{
+    margin-top:2em;
+    margin-bottom:2em;
+  }
+  .heading-inside{
+    width:485px;
+    margin-left:auto;
+    margin-right:auto;
     font-family:"roboto slab";
     color:#fff;
     font-weight:400;
     font-size:1.4em;
+    border-top: 1px solid #a51313;
+    border-bottom: 1px solid #a51313;
   }
   .rb{
     color:#e8251d;
     font-weight:700;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     font-size:1.5em;
+    text-decoration:none;
   }
   h2{
     font-family: "roboto slab";
     font-weight:400;
     color:white;
-    font-size:2.2em;
+    font-size:2em;
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5)
   }
-  a.link{
-    color:#aaa;
+  .li a{
+    color:#a2153d;
+    font-style:italic;
+  }
+  .li a:visited{
+    color:#999;
   }
 
 
@@ -47,7 +61,7 @@ html, body {
   color:white;
   background: #e8251d;
   font-size:1.2em;
-  padding:0.35em 0.5em;
+  padding:0.55em 0.65em;
   text-transform:uppercase;
   text-decoration:none;
   font-family:"roboto slab";
@@ -63,7 +77,7 @@ html, body {
   height: 80px;
   clear:both;
   padding-top:20px;
-  background:#262626;
-  border-top: 3px solid #e8251d;
+  background:#111;
+  border-top: 1px solid #e8251d;
   color:#ddd;
 } 

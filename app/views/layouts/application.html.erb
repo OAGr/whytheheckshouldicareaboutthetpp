@@ -9,15 +9,32 @@
 </head>
 <body>
 
-<div id="wrap">
+<div class="wrap">
   <div id="main" class="container clear-top">
     <%= yield %>
-  </div></div>
+</div></div>
 
 <footer class="footer">
-  <div class="container">
-  Made in SF with the EFF
-</div>
+    <div class="snippet">
+      The <span class="rb">TPP</span>, or <span class="rb">Trans-Pacific Partnership</span>, is threatening our internet freedom.  Learn more about the Trans-Pacific Partnership's copyright provisions <a href="https://www.eff.org/issues/tpp" target="_blank" class="rb">here</a>.
+    </div>
+    <div class="foot-right">
+    <div class="eff">
+      <a rel = "company"
+        href="https://www.eff.org/"
+        title="The Electronic Frontier Foundation"><img src='../assets/eff.png' class="eff-logo" alt="Organization"/></a>
+    </div>
+    <div class="made">
+      <div class="text">
+        Website by <a href="http://twitter.com/maira">@maira</a> and <a href="http://twitter.com/ozziegooen">@ozziegooen</a>
+    </div>
+      <a rel = "license"
+        href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons Attribution 3.0 License"
+        ><img src="http://i.creativecommons.org/l/by/3.0/88x31.png"
+        alt="License"/></a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>

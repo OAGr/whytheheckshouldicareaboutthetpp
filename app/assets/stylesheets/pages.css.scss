@@ -5,7 +5,7 @@ html, body {
   margin:0;
 }
 
-#wrap {
+.wrap {
   min-height: 100%;
   position:relative;
   top:0;
@@ -73,11 +73,53 @@ html, body {
 }
 .footer {
   position: relative;
-  margin-top: -80px; /* negative value of footer height */
+  margin-top: -91px; /* negative value of footer height */
   height: 80px;
   clear:both;
-  padding-top:20px;
+  padding-top:10px;
   background:#111;
   border-top: 1px solid #e8251d;
-  color:#ddd;
+  color:#aaa;
+  .snippet{
+    float:left;
+    width:45%;
+    min-width:380px;
+    font-family:"roboto slab";
+    font-size:0.9em;
+    padding-left:20px;
+    .rb{
+    color:#a51313;
+    font-weight:700;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size:1.2em;
+  }
+
+  }
+  .foot-right{
+    float:right;
+    max-width:320px;
+  }
+  .eff{
+    float:left;
+    padding-left:15px;
+    width:65px;
+    .eff-logo{
+      width:65px;
+      margin-top:8px;
+    }
+  }
+  .made{
+    float:left;
+    width:60%;
+    min-width:150px;
+    padding-left:20px;
+    font-size:0.7em;
+    .text{
+      width:100%;
+      margin-bottom: 7px;
+      a{
+        color: #a51313;
+    }
+    }
+  }
 } 

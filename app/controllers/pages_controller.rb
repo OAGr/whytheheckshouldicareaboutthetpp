@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
 
   def home
-    @fact = Fact.random(params[:f])
-    @question = Question.random(params[:q])
+    @fact = Fact.find(params[:f])
+    @question = Question.find(params[:q])
   end
 end
 

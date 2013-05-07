@@ -1,7 +1,7 @@
 <div style="text-align:center">
   <div class="header">
     <div class="heading-inside">
-       Why the heck should I care about the <a href="https://www.eff.org/issues/tpp" class="rb"> TPP</a>? 
+       Why the heck should I care about the <a href="https://www.eff.org/issues/tpp" target="_blank" class="rb"> TPP</a>? 
     </div>
   </div>
   <h2><%= @fact.name %></h2>
@@ -10,5 +10,5 @@
   <br>
 
   <br>
-  <%= link_to @question.name, root_path(:f => @fact, :q => @question), :class => "btn"%>
+  <%= link_to @question.name, root_path(:f => Fact.random(@fact), :q => Question.random(@question)), :class => "btn"%>
 </div>

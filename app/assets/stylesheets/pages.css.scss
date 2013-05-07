@@ -27,7 +27,7 @@ html, body {
     margin-left:auto;
     margin-right:auto;
     font-family:"roboto slab";
-    color:#fff;
+    color:#ccc;
     font-weight:400;
     font-size:1.4em;
     border-top: 1px solid #a51313;
@@ -44,7 +44,7 @@ html, body {
     font-family: "roboto slab";
     font-weight:400;
     color:white;
-    font-size:2em;
+    font-size:1.8em;
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5)
   }
   .li a{
@@ -79,7 +79,7 @@ html, body {
   padding-top:10px;
   background:#111;
   border-top: 1px solid #e8251d;
-  color:#aaa;
+  color:#666;
   .snippet{
     float:left;
     width:45%;
@@ -116,6 +116,7 @@ html, body {
     font-size:0.7em;
     .text{
       width:100%;
+    font-family:"roboto slab";
       margin-bottom: 7px;
       a{
         color: #a51313;
